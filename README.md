@@ -4,6 +4,8 @@
 This is a Discord bot that scrapes posts on a specific DCInside gallery and links new ones to a Discord channel.
 
 ### How do I set it up?  
+These instructions assume a UNIX-like environment (macOS, Linux, etc)
+
 #### 0. External dependencies:
 - `discord.py`: `pip3 install discord`
 - `dc_api`: `pip3 install dc_api`
@@ -65,7 +67,9 @@ kill -2 <The PID from above command>
 ### 뭐 하는 봇이예요?
 디시인사이드 갤러리에 새로 올라오는 글을 스크레이핑해서 디스코드 채널에 링크해주는 디스코드 봇입니다.
 
-### 직접 써보고 싶어요.
+### 직접 써보고 싶어요.  
+이 가이드는 UNIX 계열의 운영 체제(macOS, Linux 등)를 기반으로 작성되었습니다.
+
 #### 0. 외부 의존 패키지를 설치하세요.
 - `discord.py`: `pip3 install discord`
 - `dc_api`: `pip3 install dc_api`
