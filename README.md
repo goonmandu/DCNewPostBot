@@ -4,7 +4,7 @@
 This is a Discord bot that scrapes posts on a specific DCInside gallery and links new ones to a Discord channel.
 
 ### How do I set it up?  
-These instructions assume a UNIX-like environment (macOS, Linux, etc)
+These instructions assume a UNIX-like environment (macOS, Linux, etc).
 
 #### 0. External dependencies:
 - `discord.py`: `pip3 install discord`
