@@ -57,7 +57,7 @@ nohup python3 bot.py &
 
 #### 7-2. To stop the bot process started with 7-1:
 ```shell
-ps aux | grep -i python3 bot.py &  # Check PID
+ps aux | grep -i "python3 bot.py &"  # Check PID
 kill -2 <The PID from above command>
 ```
 
@@ -119,6 +119,6 @@ nohup python3 bot.py &
 
 #### 7-2. (7-1)의 명령어로 실행한 봇을 멈출 때는 이렇게 하세요.
 ```shell
-ps aux | grep -i python3 bot.py &  # PID 확인
+ps aux | grep -i "python3 bot.py &"  # PID 확인
 kill -2 <위 명령에서 확인한 PID>
 ```
