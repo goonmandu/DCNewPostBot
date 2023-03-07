@@ -21,7 +21,7 @@ class DCNewPostBot(discord.Client):
             raise UnknownGalleryTypeException(GALLERY_TYPE)
         old_id = int(await get_latest_post_id(GALLERY_NAME)) + 1
         channel = self.get_channel(TARGET_CHANNEL_ID)
-        await channel.send("I'm here!")
+        # await channel.send("I'm here!")
         print(f'Logged on as {self.user}!')
         while True:
             print("started main loop")
