@@ -18,6 +18,9 @@ class UnknownGalleryTypeException(Exception):
 # The ID of the channel you want the bot to link new posts in
 TARGET_CHANNEL_ID = 1081673033376350260
 
+# The ID of the channel you want the bot to log its status in
+DEBUG_LOG_CHANNEL_ID = 1083980007078105108
+
 # The name of the gallery as shown in the URL
 GALLERY_NAME = "new_world"
 
@@ -25,7 +28,7 @@ GALLERY_NAME = "new_world"
 GALLERY_TYPE = GalleryType.MINOR
 
 # Seconds between new post checks
-REFRESH_TIME = 60
+REFRESH_TIME = 150
 
 # Seconds between new post links within ONE check cycle
 NEW_LINK_DELAY = 0.4
